@@ -1,0 +1,56 @@
+a = input()
+b = input()
+if a == b:
+    print("Пароль принят")
+else:
+    print("Пароль не приянт")
+    
+    
+    
+    
+print("\u2764\ufe0f")
+
+
+
+
+print("Какой у тебя знак зодиака?")
+a = input()
+
+
+
+
+print(3 + 4)
+print(3 - 4)
+print(3 * 4)
+
+
+
+
+a, b = int(input()), int(input())
+c = input()
+if c == "+":
+    print(a + b)
+elif c == "-":
+    print(a - b)
+elif c == "/":
+    if b == 0:
+        print("На ноль делить нельзя!")
+    else:
+        print(a / b)
+elif c == "*":
+    print(a * b)
+else:
+    print("Неверная операция")
+    
+    
+a = int(input("К какой возрастной категории ты относишься?"))
+if a <= 14:
+    print("Ребенок")
+elif 14 <= a < 20:
+    print("Юный")
+elif 20 <= a < 40:
+    print("Зрелый")
+elif 40 <= a < 60:
+    print("Взрослый")
+else:
+    print("Старый")
